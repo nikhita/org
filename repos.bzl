@@ -2158,3 +2158,11 @@ def go_repositories():
         sum = "h1:VsBPFP1AI068pPrMxtb/S8Zkgf9xEmTLJjfM+P5UIEo=",
         version = "v2.2.0+incompatible",
     )
+    go_repository(
+        name = "com_github_bmatcuk_doublestar",
+        build_file_generation = "on",
+        build_file_proto_mode = "disable",
+        importpath = "github.com/bmatcuk/doublestar",
+        sum = "h1:gPypJ5xD31uhX6Tf54sDPUOBXTqKH4c9aPY66CyQrS0=",
+        version = "v1.3.4",
+    )

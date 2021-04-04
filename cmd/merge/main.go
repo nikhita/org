@@ -19,56 +19,24 @@ package main
 import (
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
-	"strings"
 
+	"k8s.io/org/cmd/helpers"
 	"k8s.io/test-infra/prow/config/org"
 
 	"github.com/ghodss/yaml"
 	"github.com/sirupsen/logrus"
 )
 
-func parseKeyValue(s string) (string, string) {
-	p := strings.SplitN(s, "=", 2)
-	if len(p) == 1 {
-		return p[0], ""
-	}
-	return p[0], p[1]
-}
-
-type flagMap map[string]string
-
-func (fm flagMap) String() string {
-	var parts []string
-	for key, value := range fm {
-		if value == "" {
-			parts = append(parts, key)
-			continue
-		}
-		parts = append(parts, key+"="+value)
-	}
-	return strings.Join(parts, ",")
-}
-
-func (fm flagMap) Set(s string) error {
-	k, v := parseKeyValue(s)
-	if _, present := fm[k]; present {
-		return fmt.Errorf("duplicate key: %s", k)
-	}
-	fm[k] = v
-	return nil
-}
-
 type options struct {
-	orgs        flagMap
+	orgs        helpers.FlagMap
 	mergeTeams  bool
 	ignoreTeams bool
 }
 
 func main() {
-	o := options{orgs: flagMap{}}
+	o := options{orgs: helpers.FlagMap{}}
 	flag.Var(o.orgs, "org-part", "Each instance adds an org-name=org.yaml part")
 	flag.BoolVar(&o.mergeTeams, "merge-teams", false, "Merge team-name/team.yaml files in each org.yaml dir")
 	flag.BoolVar(&o.ignoreTeams, "ignore-teams", false, "Never configure teams")
@@ -97,22 +65,10 @@ func main() {
 	fmt.Println(string(out))
 }
 
-func unmarshal(path string) (*org.Config, error) {
-	buf, err := ioutil.ReadFile(path)
-	if err != nil {
-		return nil, fmt.Errorf("read: %v", err)
-	}
-	var cfg org.Config
-	if err := yaml.Unmarshal(buf, &cfg); err != nil {
-		return nil, fmt.Errorf("unmarshal: %v", err)
-	}
-	return &cfg, nil
-}
-
 func loadOrgs(o options) (map[string]org.Config, error) {
 	config := map[string]org.Config{}
 	for name, path := range o.orgs {
-		cfg, err := unmarshal(path)
+		cfg, err := helpers.UnmarshalPathToOrgConfig(path)
 		if err != nil {
 			return nil, fmt.Errorf("error in %s: %v", path, err)
 		}
@@ -134,7 +90,7 @@ func loadOrgs(o options) (map[string]org.Config, error) {
 				case !info.IsDir() && filepath.Dir(path) == prefix:
 					return nil // Ignore prefix/foo files
 				case filepath.Base(path) == "teams.yaml":
-					teamCfg, err := unmarshal(path)
+					teamCfg, err := helpers.UnmarshalPathToOrgConfig(path)
 					if err != nil {
 						return fmt.Errorf("error in %s: %v", path, err)
 					}

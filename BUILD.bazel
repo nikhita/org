@@ -28,7 +28,9 @@ filegroup(
     srcs = [
         ":package-srcs",
         "//admin:all-srcs",
+        "//cmd/helpers:all-srcs",
         "//cmd/merge:all-srcs",
+        "//cmd/restrictions:all-srcs",
         "//config:all-srcs",
     ],
     tags = ["automanaged"],

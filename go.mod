@@ -3,6 +3,7 @@ module k8s.io/org
 go 1.13
 
 require (
+	github.com/bmatcuk/doublestar v1.3.4
 	github.com/ghodss/yaml v1.0.0
 	github.com/sirupsen/logrus v1.4.2
 	k8s.io/apimachinery v0.0.0-20190817020851-f2f3a405f61d
