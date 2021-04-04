@@ -7,12 +7,16 @@ teams:
     - srampal
     - tashimi
     privacy: closed
+    repos:
+      hierarchical-namespaces: admin
   hierarchical-namespaces-maintainers:
     description: Write access to hierarchical-namespaces repo
     members:
     - GinnyJI
     - yiqigao217
     privacy: closed
+    repos:
+      hierarchical-namespaces: write
   multi-tenancy-admins:
     description: Admin access to multi-tenancy repo
     members:
@@ -21,6 +25,8 @@ teams:
     - srampal
     - tashimi
     privacy: closed
+    repos:
+      multi-tenancy: admin
   multi-tenancy-maintainers:
     description: Write access to multi-tenancy repo
     members:
@@ -32,15 +38,21 @@ teams:
     - tashimi
     - yiqigao217
     privacy: closed
+    repos:
+      multi-tenancy: write
   secrets-store-csi-driver-admins:
     description: Admin access to secrets-store-csi-driver repo
     members:
     - aramase
     - ritazh
     privacy: closed
+    repos:
+      secrets-store-csi-driver: admin
   secrets-store-csi-driver-maintainers:
     description: Write access to secrets-store-csi-driver repo
     members:
     - aramase
     - ritazh
     privacy: closed
+    repos:
+      secrets-store-csi-driver: write

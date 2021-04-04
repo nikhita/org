@@ -5,6 +5,8 @@ teams:
     - kow3ns
     - liyinan926
     privacy: closed
+    repos:
+      execution-hook: admin
   execution-hook-maintainers:
     description: Write access to execution-hook repo
     members:
@@ -13,3 +15,5 @@ teams:
     - liyinan926
     - xing-yang
     privacy: closed
+    repos:
+      execution-hook: write

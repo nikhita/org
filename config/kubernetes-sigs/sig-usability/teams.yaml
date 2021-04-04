@@ -7,6 +7,8 @@ teams:
     - tashimi
     - vllry
     privacy: closed
+    repos:
+      sig-usability: admin
   sig-usability-maintainers:
     description: Write access to sig-usability repo
     members:
@@ -15,3 +17,5 @@ teams:
     - tashimi
     - vllry
     privacy: closed
+    repos:
+      sig-usability: write

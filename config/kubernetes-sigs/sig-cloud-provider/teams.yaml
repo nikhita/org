@@ -8,6 +8,8 @@ teams:
     - cheftako
     - mcrute
     privacy: closed
+    repos:
+      apiserver-network-proxy: admin
   apiserver-network-proxy-maintainers:
     description: write access to apiserver-network-proxy
     members:
@@ -17,18 +19,24 @@ teams:
     - cheftako
     - mcrute
     privacy: closed
+    repos:
+      apiserver-network-proxy: write
   alibaba-cloud-csi-driver-admins:
    description: Admin access to alibaba-cloud-csi-driver repo
    members:
    - fredkan
    - xianlubird
    privacy: closed
+   repos:
+    alibaba-cloud-csi-driver: admin
   alibaba-cloud-csi-driver-maintainers:
    description: Write access to alibaba-cloud-csi-driver repo
    members:
    - fredkan
    - xianlubird
    privacy: closed
+   repos:
+     alibaba-cloud-csi-driver: write
   aws-iam-authenticator-admins:
    description: Admin access to the aws-iam-authenticator repo
    members:
@@ -37,6 +45,8 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: admin
   aws-iam-authenticator-maintainers:
    description: Write access to the aws-iam-authenticator repo
    members:
@@ -45,6 +55,8 @@ teams:
    - nckturner
    - wongma7
    privacy: closed
+   repos:
+     aws-iam-authenticator: write
   blobfuse-csi-driver-admins:
    description: Admin access to the blobfuse-csi-driver repo
    members:
@@ -54,6 +66,8 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: maintain
   blobfuse-csi-driver-maintainers:
    description: Write access to the blobfuse-csi-driver repo
    members:
@@ -63,6 +77,8 @@ teams:
    - khenidak
    - lachie83
    privacy: closed
+   repos:
+     blob-csi-driver: maintain
   cloud-provider-baiducloud-admins:
    description: Admin access to the cloud-provider-baiducloud repo
    members:
@@ -70,6 +86,8 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: admin
   cloud-provider-baiducloud-maintainers:
    description: Write access to the cloud-provider-baiducloud repo
    members:
@@ -77,15 +95,21 @@ teams:
    - tizhou86
    - ZP-AlwaysWin
    privacy: closed
+   repos:
+     cloud-provider-baiducloud: write
   cloud-provider-huaweicloud-admins:
    description: Admin access to the cloud-provider-huaweicloud repo
    members:
    - kevin-wangzefeng
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: admin
   cloud-provider-huaweicloud-maintainers:
    description: Write access to the cloud-provider-huaweicloud repo
    members:
    - kevin-wangzefeng
    - RainbowMango
    privacy: closed
+   repos:
+     cloud-provider-huaweicloud: write

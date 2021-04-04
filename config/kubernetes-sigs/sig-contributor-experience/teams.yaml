@@ -8,6 +8,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-tweets: admin
   contributor-tweets-maintainers:
     description: write access to contributor-tweets
     maintainers:
@@ -17,6 +19,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-tweets: write
   discuss-theme-admins:
     description: admin access to the discuss-theme repo
     maintainers:
@@ -24,6 +28,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: admin
   discuss-theme-maintainers:
     description: write access to the discuss-theme repo
     maintainers:
@@ -31,9 +37,13 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      discuss-theme: write
   slack-infra-admins:
     description: admin access to slack-infra
     members:
     - jeefy
     - Katharine
     privacy: closed
+    repos:
+      slack-infra: admin

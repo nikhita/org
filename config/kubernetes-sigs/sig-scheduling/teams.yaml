@@ -4,11 +4,15 @@ teams:
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: admin
   cluster-capacity-maintainers:
     description: Write access to the cluster-capacity repo
     members:
     - ingvagabund
     privacy: closed
+    repos:
+      cluster-capacity: write
   descheduler-admins:
     description: Admin access to the descheduler repo
     members:
@@ -17,6 +21,8 @@ teams:
     - k82cn
     - ravisantoshgudimetla
     privacy: closed
+    repos:
+      descheduler: admin
   descheduler-maintainers:
     description: Write access to the descheduler repo
     members:
@@ -27,16 +33,22 @@ teams:
     privacy: closed
     previously:
     - descehduler-maintainers
+    repos:
+      descheduler: write
   kube-batch-admins:
     description: Admin access to the kube-batch repo
     members:
     - k82cn
     privacy: closed
+    repos:
+      kube-batch: admin
   kube-batch-maintainers:
     description: Write access to the kube-batch repo
     members:
     - k82cn
     privacy: closed
+    repos:
+      kube-batch: write
   poseidon-admins:
     description: Admin access to the poseidon repo
     members:
@@ -44,6 +56,8 @@ teams:
     - deepak-vij
     - k82cn
     privacy: closed
+    repos:
+      poseidon: admin
   poseidon-maintainers:
     description: Write access to the poseidon repo
     members:
@@ -51,15 +65,21 @@ teams:
     - deepak-vij
     - k82cn
     privacy: closed
+    repos:
+      poseidon: write
   scheduler-plugins-admins:
     description: Admin access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: admin
   scheduler-plugins-maintainers:
     description: Write access to the scheduler-plugins repo
     members:
     - ahg-g
     - Huang-Wei
     privacy: closed
+    repos:
+      scheduler-plugins: write

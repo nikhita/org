@@ -11,6 +11,8 @@ teams:
     privacy: closed
     previously:
     - federation-v2-admins
+    repos:
+      kubefed: admin
   kubefed-maintainers:
     description: write access to the kubefed repo
     members:
@@ -22,6 +24,8 @@ teams:
     privacy: closed
     previously:
     - federation-v2-maintainers
+    repos:
+      kubefed: write
   federation-wg:
     description: Individuals who are part of sig-multicluster and working as federation
       workgroup.
@@ -42,9 +46,13 @@ teams:
     - JeremyOT
     - pmorie
     privacy: closed
+    repos:
+      mcs-api: admin
   work-api-admins:
     description: Admin access for the work-api repo
     members:
     - jeremyot
     - pmorie
     privacy: closed
+    repos:
+      work-api: admin

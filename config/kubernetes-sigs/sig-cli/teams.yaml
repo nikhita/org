@@ -7,6 +7,8 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      cli-experimental: admin
   cli-experimental-maintainers:
     description: write access to cli-experimental
     members:
@@ -14,6 +16,8 @@ teams:
     - Liujingfang1
     - monopole
     privacy: closed
+    repos:
+      cli-experimental: write
   cli-utils-admins:
     description: admin access to cli-utils
     members:
@@ -24,6 +28,8 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      cli-utils: admin
   cli-utils-maintainers:
     description: write access to cli-utils
     members:
@@ -31,6 +37,8 @@ teams:
     - Liujingfang1
     - monopole
     privacy: closed
+    repos:
+      cli-utils: write
   krew-admins:
     description: admin access to krew
     members:
@@ -41,6 +49,8 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      krew: admin
   krew-maintainers:
     description: write access to krew
     members:
@@ -51,6 +61,8 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      krew: write
   krew-index-admins:
     description: admin access to krew-index
     members:
@@ -61,6 +73,8 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      krew-index: admin
   krew-index-maintainers:
     description: write access to krew-index
     members:
@@ -71,12 +85,16 @@ teams:
     - seans3
     - soltysh
     privacy: closed
+    repos:
+      krew-index: write
   kui-admins:
     description: admin access to kui
     members:
     - myan9
     - starpit
     privacy: closed
+    repos:
+      kui: admin
   kui-maintainers:
     description: write access to kui
     members:
@@ -88,6 +106,8 @@ teams:
     - soltysh
     - starpit
     privacy: closed
+    repos:
+      kui: admin
   kustomize-admins:
     description: ""
     members:
@@ -96,6 +116,8 @@ teams:
     - monopole
     - pwittrock
     privacy: closed
+    repos:
+      kustomize: admin
   kustomize-maintainers:
     description: ""
     members:
@@ -106,3 +128,5 @@ teams:
     - pwittrock
     - Shell32-Natsu
     privacy: closed
+    repos:
+      kustomize: maintain

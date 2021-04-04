@@ -6,6 +6,8 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
+    repos:
+      node-feature-discovery-operator: admin
   node-feature-discovery-operator-maintainers:
     description: Write access to node-feature-discovery-operator repo
     members:
@@ -13,6 +15,8 @@ teams:
     - marquiz
     - zvonkok
     privacy: closed
+    repos:
+      node-feature-discovery-operator: write
   security-profiles-operator-admins:
     description: Admin access to security-profiles-operator repo
     members:
@@ -22,6 +26,8 @@ teams:
     privacy: closed
     previously:
     - seccomp-operator-admins
+    repos:
+      security-profiles-operator: admin
   security-profiles-operator-maintainers:
     description: Write access to security-profiles-operator repo
     members:
@@ -31,3 +37,5 @@ teams:
     privacy: closed
     previously:
     - seccomp-operator-maintainers
+    repos:
+      security-profiles-operator: write

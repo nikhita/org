@@ -5,6 +5,9 @@ teams:
     - jberkhahn
     - jhvhs
     privacy: closed
+    repos:
+      go-open-service-broker-client: admin
+      service-catalog: admin
   service-catalog-maintainers:
     description: Write access to the service-catalog repo
     members:
@@ -14,9 +17,14 @@ teams:
     - mhbauer
     - piotrmiskiewicz
     privacy: closed
+    repos:
+      go-open-service-broker-client: write
+      service-catalog: write
   minibroker-admins:
     description: Admin access to the minibroker repo
     members:
     - carolynvs
     - f0rmiga
     privacy: closed
+    repos:
+      minibroker: admin

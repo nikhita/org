@@ -4,11 +4,15 @@ teams:
     members:
     - aaronlevy
     privacy: closed
+    repos:
+      bootkube: admin
   bootkube-maintainers:
     description: write access to bootkube repo
     members:
     - aaronlevy
     privacy: closed
+    repos:
+      bootkube: write
   cluster-addons-admins:
     description: admin access to cluster-addons
     members:
@@ -19,6 +23,8 @@ teams:
     privacy: closed
     previously:
     - addon-operators-admins
+    repos:
+      cluster-addons: admin
   cluster-addons-maintainers:
     description: write access to cluster-addons
     members:
@@ -28,6 +34,8 @@ teams:
     privacy: closed
     previously:
     - addon-operators-maintainers
+    repos:
+      cluster-addons: write
   cluster-api-admins:
     description: ""
     members:
@@ -38,6 +46,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api: admin
   cluster-api-maintainers:
     description: ""
     members:
@@ -48,6 +58,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api: write
   cluster-api-bootstrap-provider-kubeadm-admins:
     descrption: admin acccess to cluster-api-bootstrap-provider-kubeadm
     members:
@@ -57,6 +69,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-bootstrap-provider-kubeadm: admin
   cluster-api-bootstrap-provider-kubeadm-maintainers:
     descrption: write acccess to cluster-api-bootstrap-provider-kubeadm
     members:
@@ -67,6 +81,8 @@ teams:
     - SataQiu
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-bootstrap-provider-kubeadm: write
   cluster-api-provider-aws-admins:
     description: admin access to cluster-api-provider-aws
     members:
@@ -79,6 +95,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-aws: admin
   cluster-api-provider-aws-maintainers:
     description: write access to cluster-api-provider-aws
     members:
@@ -92,6 +110,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-aws: write
   cluster-api-provider-azure-admins:
     description: ""
     members:
@@ -99,6 +119,8 @@ teams:
     - devigned
     - nader-ziada
     privacy: closed
+    repos:
+      cluster-api-provider-azure: admin
   cluster-api-provider-azure-maintainers:
     description: ""
     members:
@@ -106,6 +128,8 @@ teams:
     - devigned
     - nader-ziada
     privacy: closed
+    repos:
+      cluster-api-provider-azure: write
   cluster-api-provider-azure-pms:
     description: ""
     members:
@@ -116,6 +140,8 @@ teams:
     - juan-lee
     - nader-ziada
     privacy: closed
+    repos:
+      cluster-api-provider-azure: triage
   cluster-api-provider-digitalocean-admins:
     description: Admin access to the cluster-api-provider-digitalocean repo
     members:
@@ -125,6 +151,8 @@ teams:
     - timoreimann
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-provider-digitalocean: admin
   cluster-api-provider-digitalocean-maintainers:
     description: Write access to the cluster-api-provider-digitalocean repo
     members:
@@ -134,6 +162,8 @@ teams:
     - timoreimann
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-provider-digitalocean: write
   cluster-api-provider-docker-admins:
     description: admin access to cluster-api-provider-docker repo
     members:
@@ -142,6 +172,8 @@ teams:
     - luxas
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-provider-docker: admin
   cluster-api-provider-docker-maintainers:
     description: write access to cluster-api-provider-docker repo
     members:
@@ -150,6 +182,8 @@ teams:
     - luxas
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-provider-docker: write
   cluster-api-provider-gcp-admins:
     description: admin access to cluster-api-provider-gcp
     members:
@@ -159,6 +193,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-gcp: admin
   cluster-api-provider-gcp-maintainers:
     description: write access to cluster-api-provider-gcp-maintainers
     members:
@@ -168,6 +204,8 @@ teams:
     - krousey
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-gcp: write
   cluster-api-provider-kubemark-admins:
     description: admin access to cluster-api-provider-kubemark
     members:
@@ -178,12 +216,16 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-kubemark: admin
   cluster-api-provider-kubemark-maintainers:
     description: write access to cluster-api-provider-kubemark
     members:
     - benmoss
     - elmiko
     privacy: closed
+    repos:
+      cluster-api-provider-kubemark: write
   cluster-api-provider-nested-admins:
     description: admin access to cluster-api-provider-nested
     members:
@@ -195,6 +237,8 @@ teams:
     - timothysc
     - vincepri
     privacy: closed
+    repos:
+      cluster-api-provider-nested: admin
   cluster-api-provider-nested-maintainers:
     description: write access to cluster-api-provider-nested
     members:
@@ -203,6 +247,8 @@ teams:
     - resouer
     - zhuangqh
     privacy: closed
+    repos:
+      cluster-api-provider-nested: write
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
@@ -213,6 +259,8 @@ teams:
     - sbueringer
     - timothysc
     privacy: closed
+    repos:
+      cluster-api-provider-openstack: admin
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
@@ -222,6 +270,8 @@ teams:
     - jichenjc
     - sbueringer
     privacy: closed
+    repos:
+      cluster-api-provider-openstack: write
   cluster-api-provider-packet-admins:
     description: Admin access to cluster-api-provider-packet repo
     members:
@@ -230,6 +280,8 @@ teams:
     - mrmrcoleman
     - thebsdbox
     privacy: closed
+    repos:
+      cluster-api-provider-packet: admin
   cluster-api-provider-packet-maintainers:
     description: Write access to the cluster-api-provider-packet repo
     members:
@@ -240,6 +292,8 @@ teams:
     - mrmrcoleman
     - thebsdbox
     privacy: closed
+    repos:
+      cluster-api-provider-packet: write
   cluster-api-provider-vsphere-admins:
     description: Admin access to the cluster-api-provider-vsphere repo
     members:
@@ -248,6 +302,8 @@ teams:
     - frapposelli
     - yastij
     privacy: closed
+    repos:
+      cluster-api-provider-vsphere: admin
   cluster-api-provider-vsphere-maintainers:
     description: Write access to the cluster-api-provider-vsphere repo
     members:
@@ -261,18 +317,24 @@ teams:
     - vincepri
     - yastij
     privacy: closed
+    repos:
+      cluster-api-provider-vsphere: write
   etcdadm-admins:
     description: Admin access to the etcdadm repo
     members:
     - dlipovetsky
     - justinsb
     privacy: closed
+    repos:
+      etcdadm: admin
   etcdadm-maintainers:
     description: Write access to the etcdadm repo
     members:
     - dlipovetsky
     - justinsb
     privacy: closed
+    repos:
+      etcdadm: write
   image-builder-admins:
     description: admin access to image-builder
     members:
@@ -281,6 +343,8 @@ teams:
     - luxas
     - timothysc
     privacy: closed
+    repos:
+      image-builder: admin
   image-builder-maintainers:
     description: write access to image-builder
     members:
@@ -290,6 +354,8 @@ teams:
     - moshloop
     - timothysc
     privacy: closed
+    repos:
+      image-builder: write
   kubespray-admins:
     description: Admin access to the kubespray repo
     members:
@@ -297,6 +363,8 @@ teams:
     - chadswen
     - mattymo
     privacy: closed
+    repos:
+      kubespray: admin
   kubespray-maintainers:
     description: Write access to the kubespray repo
     members:
@@ -310,3 +378,5 @@ teams:
     - riverzhang
     - woopstar
     privacy: closed
+    repos:
+      kubespray: write

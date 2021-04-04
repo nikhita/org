@@ -8,6 +8,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      downloadkubernetes: admin
   downloadkubernetes-maintainers:
     description: write access to downloadkubernetes
     members:
@@ -19,6 +21,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      downloadkubernetes: write
   image-promoter-admins:
     description: admin access to k8s-container-image-promoter
     members:
@@ -32,6 +36,8 @@ teams:
     privacy: closed
     previously:
     - k8s-container-image-promoter-admins
+    repos:
+      k8s-container-image-promoter: admin
   image-promoter-maintainers:
     description: write access to k8s-container-image-promoter
     maintainers:
@@ -49,6 +55,8 @@ teams:
     privacy: closed
     previously:
     - k8s-container-image-promoter-maintainers
+    repos:
+      k8s-container-image-promoter: write
   mdtoc-admins:
     description: admin access to mdtoc
     members:
@@ -58,6 +66,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      mdtoc: admin
   release-engineering:
     description: Members of the Release Engineering subproject, including
       Release Managers and Release Manager Associates.
@@ -79,6 +89,8 @@ teams:
     - Verolop # Release Manager Associate
     - xmudrii # Release Manager
     privacy: closed
+    repos:
+      k8s-container-image-promoter: triage
   release-notes-admins:
     description: admin access to release-notes
     members:
@@ -89,6 +101,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      release-notes: admin
   release-notes-maintainers:
     description: write access to release-notes
     members:
@@ -99,6 +113,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      release-notes: write
   release-sdk-admins:
     description: admin access to release-sdk
     members:
@@ -107,6 +123,8 @@ teams:
     - justaugustus
     - saschagrunert
     privacy: closed
+    repos:
+      release-sdk: admin
   release-sdk-maintainers:
     description: write access to release-sdk
     members:
@@ -115,6 +133,8 @@ teams:
     - justaugustus
     - saschagrunert
     privacy: closed
+    repos:
+      release-sdk: write
   release-utils-admins:
     description: admin access to release-utils
     members:
@@ -123,6 +143,8 @@ teams:
     - justaugustus
     - saschagrunert
     privacy: closed
+    repos:
+      release-utils: admin
   release-utils-maintainers:
     description: write access to release-utils
     members:
@@ -131,6 +153,8 @@ teams:
     - justaugustus
     - saschagrunert
     privacy: closed
+    repos:
+      release-utils: write
   zeitgeist-admins:
     description: admin access to zeitgeist
     members:
@@ -140,6 +164,8 @@ teams:
     - saschagrunert # subproject owner
     - tpepper # subproject owner
     privacy: closed
+    repos:
+      zeitgeist: admin
   zeitgeist-maintainers:
     description: write access to zeitgeist
     members:
@@ -152,3 +178,5 @@ teams:
     - tpepper # subproject owner
     - yastij
     privacy: closed
+    repos:
+      zeitgeist: write

@@ -7,6 +7,8 @@ teams:
     - justaugustus
     - nilo19
     privacy: closed
+    repos:
+      cloud-provider-azure: admin
   cloud-provider-azure-maintainers:
     description: ""
     members:
@@ -15,26 +17,35 @@ teams:
     - justaugustus
     - ritazh
     privacy: closed
+    repos:
+      cloud-provider-azure: write
   azuredisk-csi-driver-admins:
     description: ""
     members:
     - andyzhangx
     privacy: closed
+    repos:
+      azuredisk-csi-driver: admin
   azuredisk-csi-driver-maintainers:
     description: ""
     members:
     - andyzhangx
     - feiskyer
     privacy: closed
+    repos:
+      azuredisk-csi-driver: write
   azurefile-csi-driver-admins:
     description: ""
     members:
     - andyzhangx
     privacy: closed
+    repos:
+      azurefile-csi-driver: admin
   azurefile-csi-driver-maintainers:
     description: ""
     members:
     - andyzhangx
     - feiskyer
     privacy: closed
-
+    repos:
+      azurefile-csi-driver: write

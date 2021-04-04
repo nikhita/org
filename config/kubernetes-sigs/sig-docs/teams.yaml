@@ -6,6 +6,8 @@ teams:
     - jimangel
     - kbarnard10
     privacy: closed
+    repos:
+      reference-docs: admin
   reference-docs-maintainers:
     description: write access to the reference-docs repo
     members:
@@ -15,3 +17,5 @@ teams:
     - sftim
     - tengqm
     privacy: closed
+    repos:
+      reference-docs: write

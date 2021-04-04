@@ -4,6 +4,8 @@ teams:
     members:
     - gyliu513
     privacy: closed
+    repos:
+      cluster-api-provider-ibmcloud: admin
   cluster-api-provider-ibmcloud-maintainers:
     description: Write access to the cluster-api-provider-ibmcloud repo
     members:
@@ -11,3 +13,5 @@ teams:
     - jichenjc
     - xunpan
     privacy: closed
+    repos:
+      cluster-api-provider-ibmcloud: write
