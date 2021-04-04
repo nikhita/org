@@ -147,6 +147,8 @@ teams:
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
+    repos:
+      enhancements: write
   publishing-bot-reviewers:
     description: Reviews for publishing-bot
     maintainers:
@@ -221,6 +223,9 @@ teams:
         - Verolop # Release Manager Associate
         - xmudrii # Release Manager
         privacy: closed
+        repos:
+          release: triage
+          sig-release: triage
         teams:
           release-managers:
             description: People actively pushing Kubernetes releases. Gives
@@ -240,6 +245,10 @@ teams:
             privacy: closed
             previously:
             - kubernetes-release-managers
+            repos:
+              kubernetes: admin
+              release: write
+              sig-release: write
       release-team:
         description: Members of the current Release Team and subproject owners.
         members:
@@ -318,6 +327,10 @@ teams:
             - palnabarun # 1.21 RT Lead
             - savitharaghunathan # 1.21 RT Lead Shadow
             privacy: closed
+            repos:
+              kubernetes: write
+              release: triage
+              sig-release: write
       sig-release-admins:
         description: Admins for SIG Release repositories
         members:
@@ -327,6 +340,9 @@ teams:
         - justaugustus # Chair
         - saschagrunert # Chair
         privacy: closed
+        repos:
+          release: admin
+          sig-release: admin
       sig-release-leads:
         description: |
           Chairs, Technical Leads, and Program Managers for SIG Release
@@ -349,3 +365,6 @@ teams:
         - LappleApple # Program Manager
         - saschagrunert # Chair
         privacy: closed
+        repos:
+          release: triage
+          sig-release: maintain

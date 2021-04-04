@@ -13,6 +13,8 @@ teams:
     - parispittman
     - Phillels
     privacy: closed
+    repos:
+      community: admin
   community-maintainers:
     description: ""
     maintainers:
@@ -23,6 +25,8 @@ teams:
     - alisondy
     - parispittman
     privacy: closed
+    repos:
+      community: write
   community-milestone-maintainers:
     description: Contributors who can use `/milestone` in the community repo. Defined by an entry in an OWNERS file for a contribex subproject.
     maintainers:
@@ -55,6 +59,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-site: admin
   contributor-site-maintainers:
     description: write access to contributor-site
     maintainers:
@@ -62,6 +68,8 @@ teams:
     members:
     - castrojo
     privacy: closed
+    repos:
+      contributor-site: write
   ghas-subproject-board:
     description: Members who have access to edit the GitHub Administration
       Subproject Board

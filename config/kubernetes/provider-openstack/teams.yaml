@@ -8,6 +8,8 @@ teams:
     - lingxiankong
     - ramineni
     privacy: closed
+    repos:
+      cloud-provider-openstack: admin
   cloud-provider-openstack-maintainers:
     description: Write access to the cloud-provider-openstack repo
     members:
@@ -17,6 +19,8 @@ teams:
     - lingxiankong
     - ramineni
     privacy: closed
+    repos:
+      cloud-provider-openstack: write
   cloud-provider-openstack-members:
     description: ""
     members:
@@ -26,6 +30,8 @@ teams:
     - lingxiankong
     - ramineni
     privacy: closed
+    repos:
+      cloud-provider-openstack: read
   provider-openstack-api-reviews:
     description: ""
     members:

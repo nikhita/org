@@ -308,6 +308,8 @@ teams:
     - jimangel
     - kbarnard10
     privacy: closed
+    repos:
+      website: admin
   website-maintainers:
     description: Write access to the website repo
     members:
@@ -350,6 +352,8 @@ teams:
     - zacharysarah # L10n: English
     - zhangxiaoyu-zidif # L10n: Chinese
     privacy: closed
+    repos:
+      website: admin
   website-milestone-maintainers:
     description: Contributors who can use `/milestone` in the website repo
     members:

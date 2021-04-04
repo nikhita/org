@@ -61,6 +61,8 @@ teams:
         - justaugustus # subproject owner
         - LappleApple # subproject owner
         privacy: closed
+        repos:
+          enhancements: admin
       enhancements-maintainers:
         description: Contributors with write access to k/enhancements
         maintainers:
@@ -73,3 +75,5 @@ teams:
         previously:
         - features-maintainers
         privacy: closed
+        repos:
+          enhancements: write

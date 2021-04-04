@@ -56,3 +56,5 @@ teams:
     - dims
     - thockin
     privacy: closed
+    repos:
+      k8s.io: write
